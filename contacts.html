@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Rainbow Children Education Centre School | Contacts</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" media="screen" href="css/reset.css">
+<link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+<link rel="stylesheet" type="text/css" media="screen" href="css/grid_12.css">
+<link rel="stylesheet" type="text/css" media="screen" href="css/slider.css">
+<link rel="shortcut icon" href="images/r.png">
+<link href='http://fonts.googleapis.com/css?family=Cabin+Sketch:400,700' rel='stylesheet' type='text/css'>
+<script src="js/jquery-1.7.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/tms-0.4.1.js"></script>
+<script>
+$(document)
+    .ready(function () {
+    $('.slider')
+        ._TMS({
+        show: 0,
+        pauseOnHover: true,
+        prevBu: '.prev',
+        nextBu: '.next',
+        playBu: false,
+        duration: 800,
+        preset: 'fade',
+        pagination: true,
+        pagNums: false,
+        slideshow: 7000,
+        numStatus: false,
+        banners: false,
+        waitBannerAnimation: false,
+        progressBar: false
+    })
+});
+</script>
+<!--[if lt IE 9]>
+<script src="js/html5.js"></script>
+<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+<![endif]-->
+</head>
+<body>
+<div class="main">
+  <!--==============================header=================================-->
+  <header>
+    <h1><a href="index.html"><img src="images/logo.png" alt=""></a></h1>
+    <nav>
+      <div id="slide">
+        <div class="slider">
+          <ul class="items">
+            <li><img src="images/I.jpg" alt=""></li>
+            <li><img src="images/A.jpg" alt=""></li>
+            <li><img src="images/B.jpg" alt=""></li>
+          </ul>
+        </div>
+        <a href="#" class="prev"></a><a href="#" class="next"></a> </div>
+      <ul class="menu">
+        <li><a href="index.html" class="clr-1">Home</a></li>
+        <li><a href="about.html" class="clr-2">About</a></li>
+        <li><a href="schedule.html" class="clr-3">Schedule</a></li>
+        <li><a href="gallery.html" class="clr-4">Gallery</a></li>
+        <li class="current"><a href="contacts.html" class="clr-5">Contacts</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!--==============================content================================-->
+  <section id="content">
+    <div class="container_12">
+      <div class="grid_4 bot-1">
+        <h2 class="top-6">Contact Us</h2>
+        
+        <dl>
+          <dt>1/77 Manhkring Quarter<br>Myitkyina</dt>
+          <dd><span>Telephone: </span>+95792395233</dd>
+          <dd><span>E-mail: </span><a href="https://mail.google.com/mail/u/2/#inbox" class="link">rainbowchildreneducationcentre@gmail.com</a></dd>
+        </dl>
+      </div>
+      <div class="grid_8">
+        <div class="block-1 top-5">
+          <div class="block-1-shadow">
+            <h2 class="clr-6">Contact Form</h2>
+            <form id="form" method="post" action="#">
+              <fieldset>
+                <label><strong>Name:</strong>
+                  <input type="text" value="">
+                  <strong class="clear"></strong></label>
+                <label><strong>Email:</strong>
+                  <input type="text" value="">
+                  <strong class="clear"></strong></label>
+                <label><strong>Phone:</strong>
+                  <input type="text" value="">
+                  <strong class="clear"></strong></label>
+                <label><strong>Message:</strong>
+                  <textarea></textarea>
+                  <strong class="clear"></strong></label>
+                <strong class="clear"></strong>
+                <div class="btns pad-2"><a href="#" class="link-2">Clear</a><a href="https://mail.google.com/mail/u/2/#inbox" class="link-2">Send</a></div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+        <!--==============================footer=================================-->
+        <footer>
+          <p>© 2012 Art School</p>
+          <p>Website Template by <a target="_blank" href="http://www.templatemonster.com/" class="link">TemplateMonster.com</a></p>
+        </footer>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </section>
+</div>
+</body>
+</html>
